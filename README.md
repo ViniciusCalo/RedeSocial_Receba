@@ -13,6 +13,8 @@
 <img src = "https://user-images.githubusercontent.com/88565656/208253063-42309a7b-bd76-47e7-a6c3-e10973829145.png"width="500px">
 
 <li>Faça o download dos arquivos aqui no github</li>
+<br>
+<img src = "https://user-images.githubusercontent.com/88565656/208254437-fbfcb767-fabc-4a11-a1bb-18e5935a534d.png" width="500px">
 
 <li> No MySQL, crie uma database "receba"</li>
 <br>
@@ -28,7 +30,7 @@
 <br>
 <img src = "https://user-images.githubusercontent.com/88565656/208253181-5ccb49c2-2a98-4a18-9ea7-ebeac56da93b.jpeg"width="500px">
 
-<li> Pronto, RECEBA!</li></li>
+<li> Pronto,  <b> RECEBA!</li>
 <br>
 <img src = "https://user-images.githubusercontent.com/88565656/208253276-8cab389d-3745-40d9-bd0f-e1bca71d0555.png"width="500px">
 <img src = "https://user-images.githubusercontent.com/88565656/208253289-0d02423a-3e54-46b9-95e1-4f2c9d7b5f9d.png"width="500px">
