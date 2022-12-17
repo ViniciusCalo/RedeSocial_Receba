@@ -1,8 +1,9 @@
 # RedeSocial_Receba
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&color=36d921&width=350&height=50&lines=Olá+mundo!...;&#x1F50B;)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&color=0969DA&width=350&height=50&lines=Olá+mundo!...;&#0969DA;)](https://git.io/typing-svg)
 
-Para executar nossa rede social, você precisa seguir esses simples passos:
+## Para executar nossa rede social, você precisa seguir esses simples passos:
+
 <li>faça o download do MySQL workbench</li>
 
 <li>faça o download do eclipse  </li>
