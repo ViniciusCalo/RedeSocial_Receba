@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar</title>
+    <link rel="stylesheet" href="css/cadastro.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="js/receba.js"></script>
+</head>
+
+<body>
+
+    <nav class="nav">
+        <h3 class="txtReceba">Receba</h3>
+    </nav>
+
+   <div class="div-img">
+    <img src="imagens/img.png" alt="imagem" class="imagem">
+   </div>
+    
+
+    <div id="main" class="main">
+            <!-- input#addtask-desc+button#addtask-btn -->
+            <div class="div-input">
+                <div class="input">
+                   <input type="text" required id="cadastro-nickname">
+                   <div class="linha"></div>
+                   <label>Nickname</label>
+                </div>
+             </div>
+             <div class="div-input">
+                <div class="input">
+                   <input type="text" required id="cadastro-email">
+                   <div class="linha"></div>
+                   <label>Email</label>
+                </div>
+             </div>
+             <div class="div-input">
+                <div class="input">
+                   <input type="text" required id="cadastro-senha">
+                   <div class="linha"></div>
+                   <label>Senha</label>
+                </div>
+             </div>
+
+             <div class="div-input">
+               <div class="input">
+                  <input type="text" required id="cadastro-status">
+                  <div class="linha"></div>
+                  <label>Status</label>
+               </div>
+            </div>
+
+            <button class="btn-cad" id="btn-cad" onclick="cadastro()">Cadastrar</button>
+            <br>
+            <a class="link" href="Login.html">Já possuo conta! Login</a>
+        
+    </div>
+</body>
+
+</html>

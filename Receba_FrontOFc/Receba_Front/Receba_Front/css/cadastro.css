@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background: linear-gradient(#cfe8ff, #f8fafc);
+  min-height: 100vh;
+}
+.main{
+ padding-top: 120px;
+  padding-left: 180px;
+}
+
+.div-img{
+  height: 40px;
+  padding-left: 1000px;
+}
+
+.imagem{
+  padding-top: 200px;
+  width: 700px;
+}
+
+.nav{
+  background-color: rgb(141, 201, 250);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding-left: 44%;
+  font-size: 50px;
+  color: whitesmoke;
+}
+
+.div-input{
+  width: 500px;
+  background: #fff;
+  padding: 50px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.div-input .input{
+  height: 40px;
+  width: 100%;
+  position: relative;
+}
+.div-input .input input{
+  height: 100%;
+  width: 100%;
+  border: none;
+  font-size: 17px;
+  border-bottom: 2px solid silver;
+}
+.input input:focus ~ label,
+.input input:valid ~ label{
+  transform: translateY(-20px);
+  font-size: 15px;
+  color: #4158d0;
+}
+.div-input .input label{
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  color: grey;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.input .linha{
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  bottom: 0;
+}
+.input .linha:before{
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: #4158d0;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+.input input:focus ~ .linha:before,
+.input input:valid ~ .linha:before{
+  transform: scaleX(1);
+}
+.btn-cad {
+  margin-top: 20px;
+  height: 40px;
+  width: 180px;
+  border-radius: 18px;
+  background-color: whitesmoke;
+
+}
+.btn-cad:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#fbfdff;
+}
+.btn-cad:active {
+	position:relative;
+	top:1px;
+}

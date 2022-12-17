@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body{
+    background: linear-gradient(#cfe8ff, #f8fafc);
+    min-height: 100vh;
+  }
+
+  .nav{
+    background-color: rgb(141, 201, 250);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 44%;
+    font-size: 50px;
+    color: whitesmoke;
+  }
+
+  .main{
+    padding-top: 40px;
+     padding-left: 80px;
+   }
+
+   .div-post{
+    align-items: center;
+    background-color: rgb(245, 241, 241);
+    width: 500px;
+   }
+
+   .post{
+    margin: 30px;
+    height: 300px;
+    width: 450px;
+    background-color: white;
+   }
+
+   .buttonG{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 145px;
+    height: 40px;
+    width: 90px;
+    border-radius: 18px;
+    background-color: whitesmoke;
+   }
+
+   .lbllike{
+    position: absolute;
+    margin-left: 115px;
+    margin-top: 157px;
+   }
+
+   .buttonG:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#fbfdff;
+   }
+
+
+   .buttonNg{
+    position: absolute;
+    margin-top: 145px;
+    margin-left: 150px;
+    height: 40px;
+    width: 90px;
+    border-radius: 18px;
+    background-color: whitesmoke;
+   }
+
+   .lbldeslike{
+    position: absolute;
+    margin-left: 244px;
+    margin-top: 157px;
+   }
+
+   .buttonNg:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#fbfdff;
+   }
+
+
+   
+
+   .hr{
+    position: absolute;
+    padding-left: 450px;
+    margin-top: 175px;
+   }
+
+   .submit-post{
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 700px;
+
+   }
+
+   #input-post{
+    width: 400px;
+    height: 300px;
+    font-size: 30px;
+    
+   }
+
+   #add-post{
+    position: absolute;
+    margin-top: 20px;
+    height: 40px;
+    width: 90px;
+    border-radius: 18px;
+    background-color: whitesmoke;
+   }
+
+   #add-post:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#fbfdff;
+   }
+   #add-post:active {
+	position:relative;
+	top:1px;
+   }
+
+   .imgperfil{
+    height: 50px;
+    width: 50px;
+   }
