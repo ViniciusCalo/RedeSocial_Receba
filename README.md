@@ -4,11 +4,11 @@
 
 ## Para executar nossa rede social, você precisa seguir esses simples passos:
 
-<li>faça o download do MySQL workbench</li>
+<li>Faça o download do MySQL workbench</li>
 <br>
 <img src = "https://user-images.githubusercontent.com/88565656/208254130-51996134-465f-41b3-96c9-282bd9751e77.png" width="500px">
 
-<li>faça o download do eclipse  </li>
+<li>Faça o download do eclipse  </li>
 <br>
 <img src = "https://user-images.githubusercontent.com/88565656/208253063-42309a7b-bd76-47e7-a6c3-e10973829145.png"width="500px">
 
